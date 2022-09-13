@@ -1,0 +1,19 @@
+{
+  "type": "project",
+  "expression": "Customer.customerNumber,customerName,orderNumber,orderDate",
+  "right": {
+    "type": "theta_join",
+    "expression": "C.customerNumber = OM.customerNumber",
+    "left": {
+      "type": "entity",
+      "value": "Customer",
+      "alias": "C"
+    },
+    "right": {
+      "type": "entity",
+      "value": "OrderMaster",
+      "alias": "OM"
+    }
+  }
+}
+

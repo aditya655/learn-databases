@@ -1,0 +1,93 @@
+
+.relational_project::before {
+    font-family: "relational_database_scriptMD";
+    content: "\00220f";
+    
+}
+
+.relational_restrict::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0003c3";
+}
+
+.relational_aggregate::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0003be";
+}
+
+.relational_aggregate-grouping::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0003be";
+}
+
+.relational_theta-join::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0022c8";
+}
+
+.relational_left-join::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0027d5";
+}
+
+.relational_right-join::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0027d6";
+}
+
+.relational_full-join::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0027d7";
+}
+
+.relational_left-semi-join::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0022c9";
+}
+
+.relational_right-semi-join::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0022ca";
+}
+
+.relational_cartesian-product::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0000c0";
+}
+
+.relational_division::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0000f7";
+}
+
+.relational_union::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0022c3";
+}
+
+.relational_intersection::before {
+    font-family: "relational_database_scriptMD";
+    content: "\0022c2";
+}
+
+.relational_difference::before {
+    font-family: "relational_database_scriptMD";
+    content: "\00002d";
+}
+
+.relational_expression {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "relational_database_scriptMD";
+    color: darkblue;
+    font-weight: bold;
+}
+
+.curr_relational_expression {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "relational_database_scriptMD";
+    color: #008b07;
+    font-weight: bold;
+}
+
